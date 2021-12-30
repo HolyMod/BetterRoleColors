@@ -1,0 +1,50 @@
+{
+    "name": "BetterRoleColors",
+    "author": "Strencher, Zerebos",
+    "version": "1.0.0",
+    "description": "Adds role colors everywhere discord doesn't.",
+    "settings": [
+        {
+            "type": "switch",
+            "name": "Colorize Mentions",
+            "note": "Colorizes the @mentions in chat & text area.",
+            "id": "colorMentions",
+            "value": true
+        },
+        {
+            "type": "switch",
+            "name": "Colorize NameTag",
+            "note": "Colorizes the Username#1234 tag. Affect UserPopout, UserProfile & more",
+            "id": "colorNameTag",
+            "value": true
+        },
+        {
+            "type": "switch",
+            "name": "Colorize Voice Users",
+            "note": "Colorizes the username of users inside a voice channel.",
+            "id": "colorVoiceUsers",
+            "value": true
+        },
+        {
+            "type": "switch",
+            "name": "Colorize MemberList",
+            "note": "Colorizes the memberlist headers",
+            "id": "colorMemberList",
+            "value": true
+        },
+        {
+            "type": "switch",
+            "name": "Colorize Guild settings",
+            "note": "Colorizes usernames in the guild settings.",
+            "id": "colorGuildSettings",
+            "value": true
+        },
+        {
+            "type": "switch",
+            "name": "Colorize typing Users",
+            "note": "Colorizes the user names of typing users.",
+            "id": "colorTypingUsers",
+            "value": true
+        }
+    ]
+}
